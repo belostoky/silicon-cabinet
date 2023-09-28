@@ -1,0 +1,38 @@
+{
+    "context": "Discuss: We are hiring for the Engineering Group, a Mid-Level or a Junior Fullstack developer. The current hiring process: CV Screening, Phone Screening, 1.5 hours system design interview, interview by CTO+Group Manager, and an interview by HR. In the system design interview we have ask a whiteboard design question - how to create a note app from database & server to the frontend. The question is - should we add another stage of home assignment, taking into account today you can use chatGPT that might help a lot in solving it. So the question is - should we add a home assignment? At which stage? How would it look like? How would it help the interview process? ",
+    "allRoles": [
+        "Staff Engineer", 
+        "Team Lead A", 
+        "Junior Engineering in Team A"
+    ],
+    "speakers": [
+        {
+            "type": "ai",
+            "engine": "CHAT_GPT_THREE",
+            "roleIndex": 0,
+            "color": "red",
+            "conflict-resolution": 2,
+            "data-driven": 3
+        },
+        {
+            "type": "ai",
+            "engine": "REPLICATE__LLAMA_2_70B",
+            "roleIndex": 1,
+            "color": "blue",
+            "conflict-resolution": 2,
+            "data-driven": 3            
+        },
+        {
+            "type": "human",
+            "engine": "HUMAN_POWERED",
+            "roleIndex": 2,
+            "color": "white"
+        }        
+    ],
+    "moderator": {
+        "engine": "CHAT_GPT",
+        "haltingStrategy": "Consensus",
+        "conclusionStrategy": "None",
+        "color": "green"
+    }
+}

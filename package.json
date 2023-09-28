@@ -23,5 +23,8 @@
     "openai": "^4.4.0",
     "ora": "^7.0.1",
     "replicate": "^0.16.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
   }
 }
